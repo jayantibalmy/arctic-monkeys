@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/perform-generic');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 .main-container{
     padding: 0% 8% 0% 8%;
 
@@ -6,11 +6,11 @@
 header{
     display: flex;
     justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
     
 }
 
 .hero-text {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 7vmax;
                                             
 }
@@ -18,14 +18,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
- 
-   
-    
 }
 .year{
-    rotate: 90deg;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   
+    rotate: 90deg;   
 }
 
 .disk-box{
